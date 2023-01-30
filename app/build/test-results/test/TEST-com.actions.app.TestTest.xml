@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.actions.app.TestTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-30T10:52:29" hostname="taehundasom-ui-MacBookPro.local" time="0.248">
-  <properties/>
-  <testcase name="테스트엔티티 테스트" classname="com.actions.app.TestTest" time="0.248"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
