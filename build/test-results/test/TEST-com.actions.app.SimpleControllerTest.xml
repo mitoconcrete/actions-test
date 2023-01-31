@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.actions.app.SimpleControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-31T02:23:48" hostname="taehundasom-ui-MacBookPro.local" time="0.567">
+  <properties/>
+  <testcase name="시작 테스트" classname="com.actions.app.SimpleControllerTest" time="0.567"/>
+  <system-out><![CDATA[11:23:48.537 [Test worker] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.a.a.SimpleController:
+	{GET [/]}: init()
+11:23:48.542 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 1 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+11:23:48.662 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+11:23:48.678 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+11:23:48.689 [Test worker] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+11:23:48.689 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+11:23:48.690 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+11:23:48.690 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+11:23:48.691 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@19a64eae
+11:23:48.691 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@29a98d9f
+11:23:48.691 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+11:23:48.691 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+11:23:48.708 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - GET "/", parameters={}
+11:23:48.710 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to com.actions.app.SimpleController#init()
+11:23:48.724 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+11:23:48.725 [Test worker] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing ["hello world!"]
+11:23:48.727 [Test worker] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 200 OK
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
